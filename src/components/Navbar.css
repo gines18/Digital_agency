@@ -4,6 +4,17 @@
     justify-content: space-between;
     border: 1px solid red;
     align-items: center;
+
+}
+
+@media only screen and (max-width: 991px){
+    .container{
+        flex-direction: column;
+    }
+    img{
+        width: 200px;
+    }
+    
 }
 
 ul li{
@@ -31,4 +42,12 @@ li{
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 390px){
+    .navbar-list ul{
+        justify-content: space-around;
+        font-size: 1.2rem;
+    }
 }
