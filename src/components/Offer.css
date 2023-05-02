@@ -1,0 +1,22 @@
+.digital-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.offer-img{
+    width: 300px;
+}
+
+@media only screen and (max-width: 390px){
+    .digital-container{
+flex-direction: column;
+    }
+}
+
+p{
+    width: 300px;
+    text-align: left;
+}
