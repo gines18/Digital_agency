@@ -1,27 +1,37 @@
+/* *{
+    outline: 1px solid red;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Quicksand:wght@300&display=swap');
-
 
 .digital-container{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 
 .offer-img{
-    width: 300px;
+    width: 600px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.4rem;
 }
 
 @media only screen and (max-width: 390px){
     .digital-container{
 flex-direction: column;
     }
-}
-
-p{
-    width: 300px;
-    text-align: left;
-    font-family: 'Assistant', sans-serif;
-    font-size: 1.4rem;
+    .offer-img{
+        width: 300px;
+    }
+    p{
+        width: 300px;
+    }
 }

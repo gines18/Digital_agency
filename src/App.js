@@ -7,8 +7,8 @@ import MyComponent from './components/Offer'
 function App() {
   return (<>
 <Navbar />
-<Carousel />
 <Welcome />
+<Carousel />
 <MyComponent/>
 </>
   )
