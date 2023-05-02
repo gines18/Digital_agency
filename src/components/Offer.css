@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Quicksand:wght@300&display=swap');
+
+
 .digital-container{
     display: flex;
     justify-content: space-around;
@@ -19,4 +22,6 @@ flex-direction: column;
 p{
     width: 300px;
     text-align: left;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.4rem;
 }

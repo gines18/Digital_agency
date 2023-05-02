@@ -16,7 +16,7 @@ import './Offer.css'
     {
       id: 3,
       image: 'logo3.png', 
-      text: 'Digital agencies often offer a range of services, such as website design, social media marketing, and search engine optimization.'
+      text: 'We offer a range of services, such as website design, social media marketing, and search engine optimization.'
     }
     
 
