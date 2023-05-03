@@ -5,25 +5,17 @@ function Welcome() {
   return (
     <>
       <div className="welcome">
-        <h1>
-          Welcome to our digital agency where we leverage{" "}
-          <span>technology</span> and <span id="red">c</span>
+<h1>Immerse yourself in the vibrant and <span id="red">c</span>
           <span id="green">r</span>
           <span id="blue">e</span>
           <span id="black">a</span>
           <span id="pink">t</span>
           <span id="violet1">i</span>
           <span id="grey">v</span>
-          <span id="lime">i</span>
-          <span id="violet">t</span>
-          <span id="green">y</span> to help you achieve your business goals.
-        </h1>
+          <span id="lime">e</span> {""}
+         coffee culture of our cafe, where every cup is a work of art and every sip a journey of discovery</h1>
       </div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </div>
+   
     </>
   );
 }

@@ -5,18 +5,18 @@ import './Offer.css'
   const imageData = [
     {
       id: 1,
-      image: 'logo.png', 
-      text: 'A digital agency specializes in providing digital services to businesses and organizations.'
+      image: 'coffee2.jpeg', 
+      text: 'Coffee is more than just a beverage, it is a culture - a way of life that brings people together and fuels creativity and inspiration'
     },
     {
       id: 2,
-      image: 'logo2.png', 
-      text: 'Digital agencies help clients improve their online presence and reach their target audience through various digital channels.'
+      image: 'coffee1.jpeg', 
+      text: 'Coffee is a universal language that transcends borders and brings people from all walks of life together, united by the simple pleasure of a great cup of coffee'
     },
     {
       id: 3,
-      image: 'logo3.png', 
-      text: 'We offer a range of services, such as website design, social media marketing, and search engine optimization.'
+      image: 'coffee3.jpeg', 
+      text: 'There is nothing quite like the aroma of freshly brewed coffee - the rich, earthy scent that awakens your senses and invites you to savor every sip'
     }
     
 
