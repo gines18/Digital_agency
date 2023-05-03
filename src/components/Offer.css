@@ -46,5 +46,8 @@ flex-direction: column;
     }
     p{
         width: 300px;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 }
