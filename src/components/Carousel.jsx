@@ -4,18 +4,19 @@ import './Carousel.css'
 function Carousel() {
   return (
     <>
+<div className="container-carousel">
     <div className="carousel">
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="./1.jpg" className="d-block w-100" alt="..."></img>
+        <img src="./111.png" className="d-block w-100" alt="..."></img>
       </div>
       <div className="carousel-item">
-        <img src="2.jpg" className="d-block w-100" alt="..."></img>
+        <img src="/222.png" className="d-block w-100" alt="..."></img>
       </div>
-      <div className="carousel-item">
-        <img src="3.jpg" className="d-block w-100" alt="..."></img>
-      </div>
+      {/* <div className="carousel-item">
+        <img src="" className="d-block w-100" alt="..."></img>
+      </div> */}
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -25,6 +26,7 @@ function Carousel() {
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
+  </div>
   </div>
   </div>
   </>

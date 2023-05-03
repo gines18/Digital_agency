@@ -1,6 +1,22 @@
 .carousel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
+    width: 800px;
+     height: 400px;
 }
+.container-carousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 820px) {
+    .carousel{
+        width: 600px;
+        height: 300px;
+   }
+    }
+@media (max-width: 390px) {
+    .carousel{
+        width: 300px;
+        height: 200px;
+   }
+    }

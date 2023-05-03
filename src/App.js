@@ -8,8 +8,8 @@ function App() {
   return (<>
 <Navbar />
 <Welcome />
-<Carousel />
 <MyComponent/>
+<Carousel />
 </>
   )
 
