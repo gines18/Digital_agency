@@ -1,0 +1,23 @@
+.card-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    max-width: 220px;
+    overflow: auto;
+    text-align: center;
+}
+
+.Ingredients{
+    display: flex;
+}
+
+.coffee-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+p{
+    margin: 0;
+}

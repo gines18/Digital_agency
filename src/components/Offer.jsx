@@ -27,7 +27,7 @@ import './Offer.css'
       <div className="digital-container">
         {imageData.map(item => (
           <div key={item.id}>
-            <img class="offer-img" src={item.image} />
+            <img className="offer-img" src={item.image} />
             <p>{item.text}</p>
            
           </div>

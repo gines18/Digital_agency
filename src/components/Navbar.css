@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&display=swap');
 
-*{
-    outline: 1px solid red;
-}
+
 .container{
     display: flex;
     flex-direction: row;
