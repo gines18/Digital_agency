@@ -33,10 +33,11 @@ const handleSearch = (event) => {
 return(
     <>
     <div className="search-bar">
-        <input type="text" placeholder="Search for recipes" onChange={handleSearch} />
+      <p>Get inspiration</p>
+        <input type="text" placeholder="Search for recipes..." onChange={handleSearch} />
       </div>
-    <div className="coffee-container">
 
+    <div className="coffee-container">
       {recipes.length > 0 && recipes.slice(0, 4).map(recipe => (
         <div className="card" style={{ width: "18rem" }}>
           <img src={recipe.recipe.image} class="card-img-top" alt="coffee-pot"></img>
