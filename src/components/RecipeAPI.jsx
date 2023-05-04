@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import './RecipeAPI.css'
 
-function Chinese() {
+function Coffee() {
     const [recipes, setRecipes] = useState([]);
+    const [searchQuery, setSearchQuery] = useState('coffee');
   
 useEffect(() => {
     const options = {
       method: 'GET',
       url: 'https://edamam-recipe-search.p.rapidapi.com/search',
-      params: {q: 'coffee'},
+      params: {q: searchQuery},
       headers: {
         'X-RapidAPI-Key': '3305c8d758msh96587b8a3306f7ep1d1bafjsn300995769472',
         'X-RapidAPI-Host': 'edamam-recipe-search.p.rapidapi.com'
@@ -23,11 +24,19 @@ const fetchRecipes = async () => {
     console.log(response.data.hits)
   };
   fetchRecipes();
-}, []);
+}, [searchQuery]);
+
+const handleSearch = (event) => {
+  setSearchQuery(event.target.value);
+}
 
 return(
     <>
+    <div className="search-bar">
+        <input type="text" placeholder="Search for recipes" onChange={handleSearch} />
+      </div>
     <div className="coffee-container">
+
       {recipes.length > 0 && recipes.slice(0, 4).map(recipe => (
         <div className="card" style={{ width: "18rem" }}>
           <img src={recipe.recipe.image} class="card-img-top" alt="coffee-pot"></img>
@@ -52,4 +61,4 @@ return(
 }
 
 
-export default Chinese;
+export default Coffee;

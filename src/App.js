@@ -4,7 +4,7 @@ import Carousel from './components/Carousel'
 import Welcome from'./components/Welcome.jsx'
 import MyComponent from './components/Offer'
 import Footer from './components/Footer.jsx'
-import Chinese from './components/RecipeAPI.jsx'
+import Coffee from './components/RecipeAPI.jsx'
 
 function App() {
   return (<>
@@ -12,7 +12,7 @@ function App() {
 <Welcome />
 <MyComponent/>
 <Carousel />
-<Chinese />
+<Coffee />
 <Footer/>
 </>
   )
