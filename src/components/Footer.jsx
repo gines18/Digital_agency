@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-<a href="http://www.github.com/gines18" target="_blank" rel="noopener noreferrer">Contact</a>
+<a href="http://www.github.com/gines18" target="_blank" rel="noopener noreferrer">Created by simple__coding</a>
         </div>
   )
 }

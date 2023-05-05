@@ -5,7 +5,7 @@ function Welcome() {
   return (
     <>
       <div className="welcome">
-<h1>Immerse yourself in the vibrant and <span id="red">c</span>
+<h1>Immerse yourself in the vibrant and <span id="lime">c</span>
           <span id="green">r</span>
           <span id="blue">e</span>
           <span id="black">a</span>
