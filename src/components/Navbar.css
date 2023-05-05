@@ -52,7 +52,7 @@ li{
 
 @media only screen and (max-width: 390px){
     .container{
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .navbar-list ul{
         justify-content: space-around;
@@ -61,6 +61,12 @@ li{
         margin-bottom: 20px;
         padding: 0;
     }
+
+#logo{
+    width: 300px;
+    margin-top: 15px;
+}
+
 }
 
 img{

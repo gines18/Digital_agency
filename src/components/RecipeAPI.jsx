@@ -36,8 +36,8 @@ return(
 
     <div className="search-bar">
       <p>Get inspiration</p>
-      <TextField type="text" onChange={handleSearch} id="outlined-basic" label="Search" variant="outlined" />
-       {/* <input type="text" placeholder="Search for recipes..." onChange={handleSearch} />  */}
+      <TextField type="text" onChange={handleSearch} id="outlined-basic" label="Search for ingredient ..." variant="outlined" />
+      
       </div>
 
     <div className="coffee-container">
