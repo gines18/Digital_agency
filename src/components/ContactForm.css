@@ -5,7 +5,7 @@
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
-    margin: 
+    background-color: #003249;
    
 }
 
@@ -16,5 +16,5 @@
     align-items: center;
     padding: 10px;
     margin: 10px;
-    border-color: red;
+
 }

@@ -53,7 +53,7 @@ return(
               ))}
             </ul>
             <div class="button">
-            <a href={recipe.recipe.url} className="btn btn-secondary" target="_blank" rel="noreferrer">Find out more</a></div>
+            <a href={recipe.recipe.url} className="btn" target="_blank" rel="noreferrer">Find out more</a></div>
           </div>
         </div>
       ))}

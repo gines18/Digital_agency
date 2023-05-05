@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <div className="container">
+      <div className="container-navbar">
         <div>
           <img id="logo" src="./download.png" alt="logo" />
         </div>

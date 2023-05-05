@@ -5,7 +5,6 @@
     max-width: 220px;
     overflow: auto;
     text-align: center;
-  
 }
 
 .card-text{
@@ -21,9 +20,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 50px;
+  padding: 20px;
     
-    background-color: #2F9599;
+    background-color: #007ea7;
 }
 
 p{
@@ -59,4 +58,13 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: end;
+}
+
+.card-img-top{
+   margin-top: 0;
+}
+
+.btn{
+    background-color: #007ea7;
+    color: white;
 }
