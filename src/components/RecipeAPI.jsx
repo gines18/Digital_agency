@@ -33,11 +33,9 @@ const handleSearch = (event) => {
 
 return(
     <>
-
     <div className="search-bar">
       <p>Get inspiration</p>
       <TextField type="text" onChange={handleSearch} id="outlined-basic" label="Search for ingredient ..." variant="outlined" />
-      
       </div>
 
     <div className="coffee-container">
@@ -54,7 +52,8 @@ return(
                 <li key={index}>{ingredient.text}</li>
               ))}
             </ul>
-            <a href={recipe.recipe.url} className="btn btn-secondary" target="_blank" rel="noreferrer">Find out more</a>
+            <div class="button">
+            <a href={recipe.recipe.url} className="btn btn-secondary" target="_blank" rel="noreferrer">Find out more</a></div>
           </div>
         </div>
       ))}
@@ -63,6 +62,4 @@ return(
 
 );
 }
-
-
 export default Coffee;

@@ -54,3 +54,9 @@ p{
 li{
     margin: 5px;
 }
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
