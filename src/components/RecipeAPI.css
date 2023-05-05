@@ -5,6 +5,11 @@
     max-width: 220px;
     overflow: auto;
     text-align: center;
+  
+}
+
+.card-text{
+   color: black ;
 }
 
 .Ingredients{
@@ -39,4 +44,8 @@ p{
         justify-content: center;
         width: 100%;
     }
+}
+
+li{
+    margin: 5px;
 }

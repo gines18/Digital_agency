@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import './RecipeAPI.css'
+import { TextField } from '@mui/material';
 
 function Coffee() {
     const [recipes, setRecipes] = useState([]);
@@ -32,15 +33,17 @@ const handleSearch = (event) => {
 
 return(
     <>
+
     <div className="search-bar">
       <p>Get inspiration</p>
-        <input type="text" placeholder="Search for recipes..." onChange={handleSearch} />
+      <TextField type="text" onChange={handleSearch} id="outlined-basic" label="Search" variant="outlined" />
+       {/* <input type="text" placeholder="Search for recipes..." onChange={handleSearch} />  */}
       </div>
 
     <div className="coffee-container">
       {recipes.length > 0 && recipes.slice(0, 4).map(recipe => (
         <div className="card" style={{ width: "18rem" }}>
-          <img src={recipe.recipe.image} class="card-img-top" alt="coffee-pot"></img>
+          <img src={recipe.recipe.image} className="card-img-top" alt="coffee-pot"></img>
           <div className="card-body">
             <h5 className="card-title">{recipe.recipe.label}</h5>
             <div className="Ingredients">
@@ -51,7 +54,7 @@ return(
                 <li key={index}>{ingredient.text}</li>
               ))}
             </ul>
-            <a href={recipe.recipe.url} className="btn btn-secondary" target="_blank">Find out more</a>
+            <a href={recipe.recipe.url} className="btn btn-secondary" target="_blank" rel="noreferrer">Find out more</a>
           </div>
         </div>
       ))}
