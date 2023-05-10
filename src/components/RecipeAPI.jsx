@@ -39,8 +39,8 @@ return(
       </div>
 
     <div className="coffee-container">
-      {recipes.length > 0 && recipes.slice(0, 4).map(recipe => (
-        <div className="card" style={{ width: "18rem" }}>
+      {recipes.length > 0 && recipes.slice(0, 4).map((recipe, index) => (
+        <div className="card" style={{ width: "18rem" }}  key={index}>
           <img src={recipe.recipe.image} className="card-img-top" alt="coffee-pot"></img>
           <div className="card-body">
             <h5 className="card-title">{recipe.recipe.label}</h5>
@@ -52,7 +52,7 @@ return(
                 <li key={index}>{ingredient.text}</li>
               ))}
             </ul>
-            <div class="button">
+            <div className="button">
             <a href={recipe.recipe.url} className="btn" target="_blank" rel="noreferrer">Find out more</a></div>
           </div>
         </div>

@@ -29,8 +29,8 @@ function ContactCard() {
 <>
 <div className="container-contact">
 {ContactDetails.map(item => (
-    <div key="item.id" className="card card2" style={{width: "18rem"}}>
-<img src={item.logo} className='card-img-top' d-flex style={{width: "5rem"}} alt="icon"></img>
+    <div key={item.id} className="card card2" style={{width: "18rem"}}>
+<img src={item.logo} className='card-img-top'  style={{width: "5rem"}} alt="icon"></img>
 <div className="card-body">
     <p className="card-text">{item.text}</p>
     <p className="card-text">{item.text2}</p>
