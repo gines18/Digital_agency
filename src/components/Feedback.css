@@ -15,4 +15,23 @@ color: white;
 
 .button-feedback{
     width: 130px;
+    background-color:#BF9E87;
+    border-color: white;
+    color: azure;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
+
+@media (max-width: 390px){
+    .h2, p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+.alert {
+    display: none;
+  }
+  .alert.show {
+    display: block;
+  }
