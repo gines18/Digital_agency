@@ -33,7 +33,7 @@ const handleSearch = (event) => {
 
 return(
     <>
-    <div className="search-bar">
+    <div className="search-bar" id='inspiration'>
       <p>Get inspiration</p>
       <TextField type="text" onChange={handleSearch} id="outlined-basic" label="Search for ingredient ..." variant="outlined" />
       </div>

@@ -27,7 +27,7 @@ const ContactDetails = [
 function ContactCard() {
   return (
 <>
-<div className="container-contact">
+<div className="container-contact" id="contact">
 {ContactDetails.map(item => (
     <div key={item.id} className="card card2" style={{width: "18rem"}}>
 <img src={item.logo} className='card-img-top'  style={{width: "5rem"}} alt="icon"></img>
