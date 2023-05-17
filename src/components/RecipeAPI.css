@@ -1,70 +1,70 @@
-.card-text{
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    max-width: 220px;
-    overflow: auto;
-    text-align: center;
+.card-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  max-width: 220px;
+  overflow: auto;
+  text-align: center;
 }
 
-.card-text{
-   color: black ;
+.card-text {
+  color: black;
 }
 
-.Ingredients{
-    display: flex;
+.Ingredients {
+  display: flex;
 }
 
-.coffee-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 15px;
+.coffee-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
   padding: 20px;
-    
-    background-color: #007ea7;
+
+  background-color: #007ea7;
 }
 
-p{
-    margin-bottom: 10px;
+p {
+  margin-bottom: 10px;
 }
 
-.search-bar{
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 390px) {
+  .search-bar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
+    justify-content: center;
+    width: 100%;
+  }
+  .coffee-container {
+    padding: 30px 30px;
+  }
 }
 
-@media only screen and (max-width: 390px){
-    .search-bar{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .coffee-container{
-        padding: 30px 30px;
-    }
+li {
+  margin: 5px;
 }
 
-li{
-    margin: 5px;
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
-.button{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+.card-img-top {
+  margin-top: 0;
 }
 
-.card-img-top{
-   margin-top: 0;
-}
-
-.btn{
-    background-color: #007ea7;
-    color: white;
+.btn {
+  background-color: #007ea7;
+  color: white;
 }
