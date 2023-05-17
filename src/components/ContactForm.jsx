@@ -27,6 +27,11 @@ const ContactDetails = [
 function ContactCard() {
   return (
 <>
+<div className='container-contact-title'>
+<h2 id="contact-title">Get in Touch for the Perfect Brew!</h2>
+</div>
+  
+
 <div className="container-contact" id="contact">
 {ContactDetails.map(item => (
     <div key={item.id} className="card card2" style={{width: "18rem"}}>

@@ -18,3 +18,21 @@
     margin: 10px;
 
 }
+
+.container-contact-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #003249;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+@media (max-width: 390px){
+    #contact-title{
+        font-size: 1.3rem;
+    }
+}
