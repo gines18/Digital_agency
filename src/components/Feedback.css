@@ -23,9 +23,17 @@ color: white;
 }
 
 @media (max-width: 390px){
-    .h2, p{
+    .h2{
         font-size: 1.3rem;
         text-align: center;
+    }
+    .container-feedback p{
+        font-size: 1.5rem;
+        text-align: center;
+        background: black;
+        border-radius: 15px;
+        padding: 5px;
+        background: #ffca7a;
     }
 }
 
