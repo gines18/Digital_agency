@@ -21,12 +21,13 @@
   flex-wrap: wrap;
   gap: 15px;
   padding: 20px;
-
+position: relative;
   background-color: #007ea7;
 }
 
 p {
   margin-bottom: 10px;
+
 }
 
 .search-bar {
@@ -67,6 +68,8 @@ li {
 .btn {
   background-color: #007ea7;
   color: white;
+  border: 3px solid #007ea7;
+ 
 }
 
 .card{

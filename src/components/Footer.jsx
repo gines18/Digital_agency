@@ -4,6 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
+      <div>
       <a
         href="http://www.github.com/gines18"
         target="_blank"
@@ -11,6 +12,7 @@ function Footer() {
       >
         Designed by: simple__coding
       </a>
+      </div>
     </div>
   );
 }
