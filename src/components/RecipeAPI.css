@@ -68,3 +68,15 @@ li {
   background-color: #007ea7;
   color: white;
 }
+
+.card{
+  position: relative;
+}
+
+.svg-overlay{
+  position: absolute;
+  top: 230px; 
+  width: 100%; 
+  height: 30px; 
+  z-index: 1; 
+}
