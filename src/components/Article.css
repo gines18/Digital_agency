@@ -1,0 +1,40 @@
+.container-article{
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+.card{
+    width: 300px;
+   
+}
+
+.card-body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.card-coffee{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+}
+
+@media (max-width: 390px) {
+    .card-coffee{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}

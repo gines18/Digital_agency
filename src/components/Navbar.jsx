@@ -9,7 +9,7 @@ function Navbar() {
       <BrowserRouter>
         <div className="container-navbar">
           <div>
-            <img id="logo" src="./download.png" alt="logo"></img>
+            <img id="logo" src="./cuppajoy2.png" alt="logo"></img>
           </div>
 
           <div className="navbar-list">

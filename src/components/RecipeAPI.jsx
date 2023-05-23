@@ -13,11 +13,10 @@ function Coffee() {
       url: "https://edamam-recipe-search.p.rapidapi.com/search",
       params: { q: searchQuery },
       headers: {
-        "X-RapidAPI-Key": "3305c8d758msh96587b8a3306f7ep1d1bafjsn300995769472",
-        "X-RapidAPI-Host": "edamam-recipe-search.p.rapidapi.com",
-      },
+        'X-RapidAPI-Key': 'e68c62c1b8msh3e3faba70dbdb8fp10fe20jsnf4c05aea9505',
+        'X-RapidAPI-Host': 'edamam-recipe-search.p.rapidapi.com'
+      }
     };
-
     const fetchRecipes = async () => {
       const response = await axios.request(options);
       setRecipes(response.data.hits);
