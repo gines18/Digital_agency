@@ -5,12 +5,12 @@ function Article() {
   return (
     <>
       <div className="card-coffee">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-center">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title text-center">
               Enjoy the Perfect Cup of Coffee with Our Exquisite Blends
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Indulge in the rich aroma and bold flavors of our meticulously
               crafted coffee blends. Our collection features a wide range of
               premium beans sourced from around the world. Whether you prefer a
@@ -19,19 +19,19 @@ function Article() {
               the delightful experience of savoring the perfect cup of coffee
               with our carefully curated selection
             </p>
-            <p class="card-text">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <p className="card-text">
+              <small className="text-body-secondary">Last updated 3 mins ago</small>
             </p>
           </div>
-          <img src="./logo.png" class="card-img-bottom" alt="..."></img>
+          <img src="./logo.png" className="card-img-bottom" alt="..."></img>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-center">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title text-center">
               Savor the Rich Aroma and Delightful Flavors of Our Artisanal
               Coffee Collection
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Experience coffee perfection with our meticulously crafted
               artisanal coffee collection. Each batch is carefully roasted to
               bring out the enticing aroma and distinctive flavors that coffee
@@ -41,11 +41,11 @@ function Article() {
               of every sip as you discover the true essence of exceptional
               coffee craftsmanship.
             </p>
-            <p class="card-text">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <p className="card-text">
+              <small className="text-body-secondary">Last updated 3 mins ago</small>
             </p>
           </div>
-          <img src="./logo.png" class="card-img-bottom" alt="logo-name"></img>
+          <img src="./logo.png" className="card-img-bottom" alt="logo-name"></img>
         </div>
       </div>
 <div className="header-text">
@@ -56,11 +56,11 @@ function Article() {
       </div>
 
       <div className="container-article">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button"
+                className="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -72,10 +72,10 @@ function Article() {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Coffee, the enchanting elixir that ignites our senses and fuels
                 our mornings, holds a captivating story waiting to be savored.
                 Beyond its aromatic allure and energizing properties, this
@@ -86,10 +86,10 @@ function Article() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -101,10 +101,10 @@ function Article() {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 From the mystical Ethiopian highlands to the bustling
                 coffeehouses of Europe, the origins of coffee are steeped in
                 legend and folklore. Discover the captivating tales of how a
@@ -113,10 +113,10 @@ function Article() {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -128,10 +128,10 @@ function Article() {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Step into the world of coffee craftsmanship, where the brewing
                 process becomes an art form. Delve into the diverse techniques
                 and methods employed to extract the perfect cup of Joe. From

@@ -30,6 +30,15 @@ justify-content: center;
     text-align: center;
 }
 
+@media (max-width: 645px) {
+    .card-coffee{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
 @media (max-width: 390px) {
     .card-coffee{
         flex-direction: column;
