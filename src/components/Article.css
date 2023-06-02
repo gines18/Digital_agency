@@ -12,16 +12,15 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: start;
+padding-bottom: 0 0;
 }
 
 .card-coffee{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    
 }
-
 
 .header-text{
     display: flex;
@@ -47,3 +46,4 @@ justify-content: center;
         gap: 10px;
     }
 }
+
