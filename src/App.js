@@ -5,8 +5,9 @@ import Welcome from "./components/Welcome.jsx";
 import MyComponent from "./components/Offer";
 import Footer from "./components/Footer.jsx";
 import Coffee from "./components/RecipeAPI.jsx";
+import CoffeeRestaurant from "./components/CoffeeRestaurant.jsx";
 
-import Article from './components/Article.jsx'
+import Article from "./components/Article.jsx";
 
 import ContactCard from "./components/ContactForm.jsx";
 
@@ -20,10 +21,10 @@ function App() {
       <MyComponent />
       <Carousel />
       <Article />
+      <CoffeeRestaurant />
       <Coffee />
       <Feedback />
       <ContactCard />
-
       <Footer />
     </>
   );
