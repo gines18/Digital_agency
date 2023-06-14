@@ -15,9 +15,7 @@ function Article() {
               crafted coffee blends. Our collection features a wide range of
               premium beans sourced from around the world. Whether you prefer a
               smooth and velvety brew or a strong and robust cup, our expertly
-              roasted coffees will satisfy your taste buds. Immerse yourself in
-              the delightful experience of savoring the perfect cup of coffee
-              with our carefully curated selection
+              roasted coffees will satisfy your taste buds. 
             </p>
             <p class="card-text">
               <small class="text-body-secondary">Last updated 3 mins ago</small>
