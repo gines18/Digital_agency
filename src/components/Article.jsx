@@ -37,9 +37,7 @@ function Article() {
               bring out the enticing aroma and distinctive flavors that coffee
               enthusiasts crave. From velvety smooth blends to bold and robust
               single origins, our handpicked beans from around the world
-              guarantee a captivating sensory journey. Indulge in the pleasure
-              of every sip as you discover the true essence of exceptional
-              coffee craftsmanship.
+              guarantee a captivating sensory journey.
             </p>
             <p class="card-text">
               <small class="text-body-secondary">Last updated 3 mins ago</small>
