@@ -1,0 +1,18 @@
+.img-city{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.col-img{
+   display: flex;
+   justify-content: center;
+}
+
+.coffeeCardsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
