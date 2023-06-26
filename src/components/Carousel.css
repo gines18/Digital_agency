@@ -16,9 +16,10 @@
 }
 @media (max-width: 390px) {
   .carousel {
+    
     width: 400px;
     height: 290px;
-    margin-top: -10px;
+    margin-top: -5px;
   }
   .container-carousel {
     margin-top: 0px;
