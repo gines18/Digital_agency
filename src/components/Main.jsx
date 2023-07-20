@@ -1,7 +1,7 @@
 import React from 'react'
 import coffeeWoman from './assets/woman.jpg'
-import './Main.css'
 import Footer from './Footer'
+import './Main.css'
 
 function Main() {
   return (

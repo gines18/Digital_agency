@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "./components/Layout.jsx";
-import Navbar from "./components/Navbar";
+import Layout from "./Layout.jsx";
+import Navbar from "./Navbar";
 
 
 function App() {
