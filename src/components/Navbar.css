@@ -52,6 +52,7 @@ ul {
 @media only screen and (max-width: 390px) {
   .container-navbar {
     margin-top: 0px;
+    padding-bottom: 20px;
   }
   .navbar-list ul {
     justify-content: space-around;
@@ -65,6 +66,10 @@ ul {
   #logo {
     width: 300px;
     margin-top: 15px;
+  }
+
+  a{
+    font-size: 1.3rem;
   }
 }
 

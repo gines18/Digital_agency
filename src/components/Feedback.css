@@ -39,7 +39,7 @@
   }
   svg{
     position: relative;
-    top: 1px !important;
+    top: 0px !important;
   }
 }
 
