@@ -16,13 +16,16 @@
 
 #woman{
     width: 500px;
+    margin: 0;
 }
 
 .br{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 40px;
     font-family: "MyCustomFont2";
+    
 }
 
 
