@@ -13,7 +13,7 @@ function Layout() {
       <Route path="/about" element={<About />} />
       <Route path="/home" element={<Home />} />
       <Route path="/products" element={<Products />} />
-      <Route path="/main" element={<Main />} />
+    
     </Routes>
     </>
   );
