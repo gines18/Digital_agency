@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 
-
 import { HashLink as Link } from "react-router-hash-link";
 
 function Navbar() {
@@ -23,13 +22,12 @@ function Navbar() {
           <Link to="/products">Feedback/Contact</Link>
         </li>
         <li>
-          <Link to="/">Main site</Link>
+          <Link to="/main">Main site</Link>
         </li>
       </div>
+    
     </div>
-    <div>
-       
-    </div>
+
     </>
    
   );

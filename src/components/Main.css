@@ -1,0 +1,29 @@
+/* 
+@font-face {
+    font-family: "MyCustomFont";
+    src: url('file:///Users/mario/bootcamp/gines18.github.io/Fonts/Cobane.otf') format('opentype');
+  } */
+  
+  @font-face {
+    font-family: "MyCustomFont2";
+    src: url('file:///Users/mario/bootcamp/gines18.github.io/Fonts/Amoitar.otf') format('opentype');
+  }
+
+.container-main-pic{
+    display: flex;
+    justify-content: center;
+}
+
+#woman{
+    width: 500px;
+}
+
+.br{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+    font-family: "MyCustomFont2";
+}
+
+
+
