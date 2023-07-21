@@ -1,5 +1,7 @@
 import React from "react";
 import "./ContactForm.css";
+import { motion } from "framer-motion"
+
 
 const ContactDetails = [
   {
@@ -26,7 +28,20 @@ function ContactCard() {
   return (
     <>
       <div className="container-contact-title">
-        <h2 id="contact-title">Get in Touch for the Perfect Brew!</h2>
+        <motion.h2  
+         
+         initial={{ opacity: 0, scale: 0.5 }}
+         animate={{ opacity: 1, scale: 1 }}
+         transition={{
+           duration: 0.3,
+           ease: [0, 0.71, 0.2, 1.01],
+           scale: {
+             type: "spring",
+             damping: 5,
+             stiffness: 100,
+             restDelta: 0.001
+           }
+         }} id="contact-title">Get in Touch for the Perfect Brew!</motion.h2>
       </div>
 
       <div className="container-contact" id="contact">
