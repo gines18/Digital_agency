@@ -8,6 +8,18 @@
 }
 
 #fadeout{
-
     font-size: 5rem;
+}
+
+@media (max-width: 390px) {
+    #fadeout-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    #fadeout{
+        font-size: 3rem;
+    }
 }
