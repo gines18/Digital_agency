@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fc07a13.css",
+    "main.css": "/static/css/main.65f33e58.css",
     "main.js": "/static/js/main.2219248b.js",
     "static/media/chair2.jpeg": "/static/media/chair2.271ad7c4ccb744b9c395.jpeg",
     "static/media/woman.jpg": "/static/media/woman.f05cb5e8937347d456db.jpg",
     "static/media/Amoitar.otf": "/static/media/Amoitar.a070bfbef443d0c47759.otf",
     "index.html": "/index.html",
-    "main.4fc07a13.css.map": "/static/css/main.4fc07a13.css.map",
+    "main.65f33e58.css.map": "/static/css/main.65f33e58.css.map",
     "main.2219248b.js.map": "/static/js/main.2219248b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc07a13.css",
+    "static/css/main.65f33e58.css",
     "static/js/main.2219248b.js"
   ]
 }
