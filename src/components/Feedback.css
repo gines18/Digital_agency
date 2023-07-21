@@ -52,7 +52,7 @@
 
 .svg-overlay2{
   position: absolute;
-  top: -0.4px; 
+  top: 0.5px; 
   width: 100%; 
   
   z-index: 2; 
