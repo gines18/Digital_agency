@@ -31,8 +31,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-top: 70px;
   margin-bottom: 70px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 390px) {

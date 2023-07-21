@@ -1,9 +1,11 @@
 import React from "react";
 import "./Welcome.css";
+import ScrollOpacityHeader from "./Scroll";
 
 function Welcome() {
   return (
     <>
+    <ScrollOpacityHeader />
       <div className="welcome" id="welcome">
         <h1>
           Immerse yourself in the vibrant and <span id="lime">c</span>
