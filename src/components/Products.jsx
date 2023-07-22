@@ -6,8 +6,8 @@ import Feedback from "./Feedback.jsx";
 function Products() {
   return (
     <>
-      <Feedback />
       <ContactCard />
+      <Feedback />
       <Footer />
     </>
   );
