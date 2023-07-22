@@ -6,7 +6,7 @@ import './Main.css'
 function Main() {
   return (
       <>
-      <div className='br'>CuppaJoy - Speciality Coffee Roasters</div>
+      <div className='headline'>CuppaJoy - Speciality Coffee Roasters</div>
       <div className="container-main-pic">
       <img id="woman" src={coffeeWoman} alt="" />
       </div>

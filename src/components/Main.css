@@ -17,9 +17,10 @@
 #woman{
     width: 500px;
     margin: 0;
+    margin: 10px;
 }
 
-.br{
+.headline{
   display: flex;
   justify-content: center;
   align-items: center;
