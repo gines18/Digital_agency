@@ -11,7 +11,7 @@ function Navbar() {
         <img id="logo" src="./cuppajoy2.png" alt="logo" />
       </div>
 
-      <div className="navbar-list">
+      <div className="navbar-listMenu">
         <li>
           <Link to="/about">Get inspiration</Link>
         </li>

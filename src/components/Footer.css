@@ -14,3 +14,9 @@ a {
   color: black;
   font-size: 0.8rem;
 }
+
+@media (max-width: 390px) {
+ .footer a{
+    font-size: 0.8rem;
+  }
+}
