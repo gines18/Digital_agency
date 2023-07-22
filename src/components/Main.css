@@ -17,7 +17,7 @@
 #woman{
     width: 500px;
     margin: 0;
-    margin: 10px;
+    
 }
 
 .headline{
@@ -26,6 +26,7 @@
   align-items: center;
   margin: 40px;
     font-family: "MyCustomFont2";
+    text-align: center;
     
 }
 
