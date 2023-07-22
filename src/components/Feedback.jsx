@@ -22,9 +22,8 @@ function Feedback() {
       <div
         className={showAlert ? "alert show" : "alert"}
         role="alert"
-        className="font_feedback"
       >
-        Survey coming soon!
+        <span id="survey">Survey coming soon!</span>
       </div>
     </div>
   );
