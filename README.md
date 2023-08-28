@@ -1,4 +1,5 @@
 # Website: [cuppajoy.co.uk](http://cuppajoy.co.uk/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f44523e-f28f-4328-81b5-79219c4e08a8/deploy-status)](https://app.netlify.com/sites/cuppajoy/deploys)
 
 ## Website made using React:
 
